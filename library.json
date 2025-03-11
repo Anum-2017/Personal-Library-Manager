@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "year": 1997,
+        "genre": "Fantasy, Adventure",
+        "read_status": true
+    },
+    {
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "year": 1947,
+        "genre": " Memoir, History",
+        "read_status": false
+    }
+]
