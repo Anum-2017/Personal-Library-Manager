@@ -1,6 +1,8 @@
 import streamlit as st 
 import json
 
+st.set_page_config(page_title="📚 Personal Library Manager", page_icon="📖", layout="wide")
+
 # Function to load the library data from a file
 def load_library(filename="library.json"):
     try:
@@ -35,7 +37,7 @@ def display_statistics(library):
         st.write("❌ No books to display statistics for.")
 
 # Streamlit App layout
-st.markdown("<h1 style='text-align: center;'>📖 Personal Library Manager</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>📚 Personal Library Manager</h1>", unsafe_allow_html=True)
 
 library = load_library()
 
